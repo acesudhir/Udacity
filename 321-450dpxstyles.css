@@ -16,6 +16,7 @@ body{
 
 /* begin styling for main container contents*/
 #headercontainer{
+	justify-content: center;
 	width:100%;
   margin-top: 5px;
   margin-left: auto;
@@ -56,8 +57,11 @@ p.myheader{
 }
 
 /* start of code for left hand side bar */
-#secondlevelcontainer{
+div#secondlevelcontainer{
   width:100%;
+	display:flex;
+	justify-content: center;
+	flex-wrap: nowrap;
   margin-top: 5px;
   margin-left: auto;
   margin-right: auto;
@@ -66,18 +70,18 @@ p.myheader{
   border-style:solid;
   border-color: coral;
   padding-top: 5px;
-  padding-bottom: 270px;
+  padding-bottom: 300px;
 }
 
 div#leftsidebarcontainer{
-	/*margin-top: 70px; */
+	justify-content: center;
 	border-radius: 50px;
 	width:25%;
   border-style:solid;
   position: absolute;
   left:25px;
   border-color: yellow;
-	  background: repeating-radial-gradient(white 5%, yellow 10%, green 5%);
+	background: repeating-radial-gradient(white 5%, yellow 10%, green 5%);
 }
 
 div#leftsidecolors{
@@ -138,27 +142,15 @@ img{
 div#rightsidebarcontainer.rightsidebarcontainerclass{
   display:flex;
 	flex-wrap: wrap;
+	justify-content: center;
   position:absolute;
-  right:23px;
+  right:20px;
 	width:55%;
-  height:31.5%;
+  height:45%;
   border-style: solid;
   border-radius: 55px;
   border-color: yellow;
 }
-
-/*div#rightsidebarcontainer.rightsidebarcontainerclass{
-  display:flex;
-	flex-wrap: wrap;
-  position:absolute;
-  right:23px;
-	width:55%;
-  height:35%;
-  border-style: solid;
-  border-radius: 55px;
-  border-color: yellow;
-}
-*/
 
 img#rhs-mainImageID.rhs-mainImage{
 	width:100%;
@@ -169,6 +161,8 @@ img#rhs-mainImageID.rhs-mainImage{
 
 div#thirdlevelcontainer{
   display:flex;
+	flex-wrap:nowrap;
+	justify-content: center;
   width:100%;
   margin-top: 5px;
   margin-left: auto;
@@ -183,43 +177,41 @@ div#thirdlevelcontainer{
 }
 
 img#connectImgID.connectAppimg{
-	width:30%;
-	height:55px;
+	justify-content: center;
+	width:50%;
+	height:50%;
 	border-radius: 200px;
-  position:relative;
-  margin:5px;
-  border:5px;
-  padding:15px;
-
+	position:relative;
+	margin:5px;
+	border:5px;
 }
+
 img#networkImgID.networkAppimg{
-  width:30%;
-	height:55px;
-	border-radius: 200px;
-  position:relative;
-  margin:5px;
-  border:5px;
-  padding:15px;
+	justify-content: center;
+	width:50%;
+	height:50%;
+	border-radius: 250px;
+	position:relative;
+	margin:5px;
+	border:5px;
 }
 img#smartHomeImgID.smartHomeAppimg{
-  width:30%;
-	height:55px;
+	justify-content: center;
+	width:50%;
+	height:50%;
 	border-radius: 200px;
-  position:relative;
-  margin:5px;
-  border:5px;
-  padding:15px;
+	position:relative;
+	margin:5px;
+	border:5px;
 }
 
 p#AppTextID.AppTextClass{
-  width:33%;
+	width:33%;
+	justify-content: center;
   margin:auto;
   padding: inherit;
   border-radius: 100px;
-/*  position: relative;
-  left:-10px;*/
-  font-size: 0.7em;
+  font-size: 0.8em;
   font-weight: bold;
   color:magenta;
-  text-align:center;
 }

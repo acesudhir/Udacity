@@ -17,6 +17,7 @@ body{
 /* begin styling for main container contents*/
 #headercontainer{
 	width:100%;
+	justify-content: center;
   margin-top: 5px;
   margin-left: auto;
   margin-right: auto;
@@ -25,7 +26,7 @@ body{
   border-style:outset;
   border-color: coral;
   padding-top: 5px;
-  padding-bottom: 75px;
+  padding-bottom: 50px;
   background: repeating-radial-gradient(white 5%, yellow 10%, green 5%);
 }
 
@@ -47,6 +48,7 @@ p.myheader{
 	font-family: Comic Sans MS;
 	font-style: italic;
   color:blue;
+	font-size: 2em;
 }
 
 .mydescription{
@@ -60,6 +62,8 @@ p.myheader{
 /* start of code for left hand side bar */
 #secondlevelcontainer{
   width:100%;
+	justify-content: center;
+	flex-wrap: nowrap;
   margin-top: 5px;
   margin-left: auto;
   margin-right: auto;
@@ -68,11 +72,11 @@ p.myheader{
   border-style:solid;
   border-color: coral;
   padding-top: 5px;
-  padding-bottom: 270px;
+  padding-bottom: 300px;
 }
 
 div#leftsidebarcontainer{
-	/*margin-top: 70px; */
+	justify-content: center;
 	border-radius: 50px;
 	width:25%;
   border-style:solid;
@@ -135,16 +139,15 @@ div#colortextcode{
 div#rightsidebarcontainer.rightsidebarcontainerclass{
   display:flex;
 	flex-wrap: wrap;
+	justify-content: center;
   position:absolute;
   right:23px;
 	width:55%;
-  height:25%;
+  height:47%;
   border-style: solid;
   border-radius: 60px;
   border-color: yellow;
 }
-
-
 
 img#rhs-mainImageID.rhs-mainImage{
 	width:100%;
@@ -156,6 +159,8 @@ img#rhs-mainImageID.rhs-mainImage{
 
 div#thirdlevelcontainer{
   display:flex;
+	flex-wrap:nowrap;
+	justify-content: center;
   width:100%;
   margin-top: 5px;
   margin-left: auto;
@@ -170,47 +175,40 @@ div#thirdlevelcontainer{
 }
 
 img#connectImgID.connectAppimg{
+	justify-content: center;
 	width:50%;
 	height:50%;
 	border-radius: 200px;
   position:relative;
   margin:5px;
   border:5px;
-	padding-top: 3px;
-	padding-right: 65px;
-	padding-left: 25px;
-
 }
 img#networkImgID.networkAppimg{
+	justify-content: center;
   width:50%;
 	height:50%;
 	border-radius: 200px;
   position:relative;
   margin:5px;
   border:5px;
-	padding-top: 3px;
-	padding-right: 55px;
-	padding-left: 28px;
 }
 img#smartHomeImgID.smartHomeAppimg{
+	justify-content: center;
   width:50%;
 	height:50%;
 	border-radius: 200px;
   position:relative;
   margin:5px;
   border:5px;
-	padding-top: 3px;
-	padding-right: 75px;
-	padding-left: 30px;
 }
 
 p#AppTextID.AppTextClass{
   width:33%;
+	justify-content: center;
   margin:auto;
   padding: inherit;
   border-radius: 100px;
-  font-size: 0.9em;
+  font-size: 0.8em;
   font-weight: bold;
   color:magenta;
-  text-align:center;
 }

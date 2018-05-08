@@ -16,6 +16,7 @@ body{
 
 /* begin styling for main container contents*/
 #headercontainer{
+	justify-content: center;
 	width:100%;
   margin-top: 5px;
   margin-left: auto;
@@ -57,6 +58,8 @@ p.myheader{
 
 /* start of code for left hand side bar */
 #secondlevelcontainer{
+	justify-content: center;
+	flex-wrap: nowrap;
   width:100%;
   margin-top: 5px;
   margin-left: auto;
@@ -66,11 +69,11 @@ p.myheader{
   border-style:solid;
   border-color: coral;
   padding-top: 5px;
-  padding-bottom: 270px;
+  padding-bottom: 300px;
 }
 
 div#leftsidebarcontainer{
-	/*margin-top: 70px; */
+	justify-content: center;
 	border-radius: 50px;
 	width:25%;
   border-style:solid;
@@ -131,9 +134,10 @@ div#colortextcode{
 /* end of code for left hand side bar */
 
 div#rightsidebarcontainer.rightsidebarcontainerclass{
+	justify-content: center;
   display:flex;
   position:absolute;
-  right:20px;
+  right:15px;
 	width:55%;
   height:45%;
   border-style: solid;

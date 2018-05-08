@@ -12,14 +12,12 @@
   	 <link rel = "stylesheet" type = "text/css" media="screen and (max-width:320px)" href = "320dpxstyles.css">
 		 <link rel = "stylesheet" type = "text/css" media="screen and (min-width:321px) and (max-width:450px)" href = "321-450dpxstyles.css">
 		 <link rel = "stylesheet" type = "text/css" media="screen and (min-width:451px) and (max-width:799px)" href = "451-799dpxstyles.css">
-		 <!--<link rel = "stylesheet" type = "text/css" media="screen and (min-width:800px) " href = "over799styles.css"> -->
+		 <link rel = "stylesheet" type = "text/css" media="screen and (min-width:800px) " href = "800-1000dpxstyles.css">
 </head>
 <body>
 	<!-- main header and its contents -->
 	<div id="headercontainer" class = "headercontainer">
 			<div class = "headerimages">
-				<!-- img source and copyright @ http://blog.rememberthemilk.com/post/116745728908/join-the-remember-the-milk-team-javascript-ninja -->
-				<!--<img id = "myimage" src="ninja.png" alt="ninjapic" align="right"> -->
 				<!-- img source and copyright @ www.udacity.com -->
 				<img id = "udacitylogo" src="udacitylogo.png" alt="udacitylogo" align="left">
 			</div class = "headerimages">
@@ -27,7 +25,9 @@
 			<p class = "mydescription" align = "center">Wannabe Front End Ninja</p>
 	</div id="headercontainer" class = "headercontainer">
 	<!-- end of main header and its contents -->
-	<div id="secondlevelcontainer">
+
+	<!-- start of code for second level container -->
+	<div id="secondlevelcontainer" class = "secondlevelcontainerclass">
 		<!-- start of add contents for left side tool bar -->
 		<div id = "leftsidebarcontainer" class = "leftsidebarcontainerclass">
 			<div id = "leftsidecolors" align="center">
@@ -43,26 +43,12 @@
 		<!-- start of add contents for right side tool bar -->
 		<div id = "rightsidebarcontainer" class = "rightsidebarcontainerclass">
       <img class = "rhs-mainImage" id = "rhs-mainImageID" alt = "jscode-image" src= "jscode.jpg"> </img class = "rhs-mainImage" id = "rhs-mainImageID" alt = "jscode-image" src= "jscode.jpg">
-      <!--
-			<div id = "rightsidecolors">
-				<img class = "rhs-mainImage" id = "rhs-mainImageID" alt = "main-image" src= "main_image.jpg"> </img class = "rhs-mainImage" id = "rhs-mainImageID" alt = "main-image" src= "main_image.jpg">
-				<div id="projImage1">
-					<img class= "projImage1class" id = "projImage1ID" alt = "blue-photo" src = "blue-blur.jpg"> </img>
-					<div id="colortextcode" align = "center">https://github.com/blur</div>
-				</div id = "projImage1">
-				<div id="projImage2">
-					<img class= "projImage2class" id = "projImage2ID" alt = "gulmohar-photo" src = "gulmohar.jpg"> </img>
-					<div id="colortextcode" align = "center">https://tree.com/red</div>
-				</div id = "projImage2">
-				<div id="projImage3">
-					<img class= "projImage3class" id = "projImage3ID" alt = "scenary-photo" src = "greenscenary.jpg"> </img>
-					<div id="colortextcode" align = "center">https://cncthub.com/trip</div>
-				</div id = "projImage3">
-			</div id = "rightsidecolors">-->
 		</div id = "rightsidebarcontainer" class = "rightsidebarcontainerclass">
 		<!-- end of add contents for right side tool bar -->
-	</div id="secondlevelcontainer">
+	</div id="secondlevelcontainer" class = "secondlevelcontainerclass">
+	<!-- end of code for second level container -->
 
+	<!-- start of code for third level container which contains the app's -->
   <div id = "thirdlevelcontainer" class = "thirdlevelcontainerclass">
     <div id = "connectAppID" class = "connectAppclass" align="center">
       <img class = "connectAppimg" id = "connectImgID" alt = "vpn-connect" src = "garmin_connect.png"></img>
@@ -79,5 +65,6 @@
       <p id = "AppTextID" class = "AppTextClass" >Secure WI-FI</p id = "AppTextID" class = "AppTextClass">
     </div id = "smartHomeAppID" class = "smartHomeAppclass" align="center">
   </div id = "thirdlevelcontainer" class = "thirdlevelcontainerclass">
+	<!-- end of code for third level container which contains the app's -->
 </body>
 </html>
