@@ -1,0 +1,208 @@
+/* add your CSS here */
+
+/* begin styling for body */
+body{
+	border-radius: 25px;
+	margin:2px 2px 2px 2px;
+	border:3px;
+	padding: 2px 12px 10px 5px;
+	border-style:outset;
+	border-color: red;
+	background-image: url("background-image.jpg");
+  background-size: auto;
+}
+
+/* end styling for body */
+
+/* begin styling for main container contents*/
+#headercontainer{
+	width:100%;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  border-radius: 15px;
+  border-style:outset;
+  border-color: coral;
+  padding-top: 5px;
+  padding-bottom: 35px;
+  background: repeating-radial-gradient(white 5%, yellow 10%, green 5%);
+}
+
+img#udacitylogo{
+  margin:auto;
+	border-radius: 50px;
+	/*width:100px;
+	height:100px;*/
+	max-width: 100%;
+	max-height: 100%;
+}
+
+p.myheader{
+	margin-top: 15px;
+  margin-bottom: 10px;
+	border-radius: 50px;
+	border: 3px;
+	font-family: Comic Sans MS;
+	font-style: italic;
+  color:blue;
+}
+
+.mydescription{
+	margin: auto;
+  color:blue;
+  font-family:Comic Sans MS;
+
+}
+
+/* start of code for left hand side bar */
+#secondlevelcontainer{
+  width:100%;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  border-radius: 15px;
+  border-style:solid;
+  border-color: coral;
+  padding-top: 5px;
+  padding-bottom: 270px;
+}
+
+div#leftsidebarcontainer{
+	/*margin-top: 70px; */
+	border-radius: 50px;
+	width:25%;
+  border-style:solid;
+  position: absolute;
+  left:25px;
+  border-color: yellow;
+	  background: repeating-radial-gradient(white 5%, yellow 10%, green 5%);
+}
+
+div#leftsidecolors{
+  margin-top: 15px;
+  margin-bottom: 2px;
+}
+div#color1{
+	width:62px;
+	height:50px;
+	padding:0;
+	border: 2px solid gray;
+	border-radius: 15px;
+	margin:0;
+	background-color: blue;
+}
+
+div#color2{
+	width:62px;
+	height:50px;
+	padding:0;
+	border: 2px solid gray;
+	border-radius: 15px;
+	margin:0;
+	background-color: navy;
+}
+
+div#color3{
+	width:62px;
+	height:50px;
+	padding:0;
+	border: 2px solid gray;
+	border-radius: 15px;
+	margin:0;
+	background-color: aqua;
+}
+
+#colortextcode{
+	font-style: italic;
+	font-weight: bold;
+	font-family:serif;
+  color:magenta;
+  margin: 2px;
+  border-style: 2px;
+  padding: 3px;
+}
+
+div#colortextcode{
+	font-size: .9em;
+}
+
+/* end of code for left hand side bar */
+
+div#rightsidebarcontainer.rightsidebarcontainerclass{
+  display:flex;
+  position:absolute;
+  right:23px;
+	width:55%;
+  height:40%;
+  border-style: solid;
+  border-radius: 55px;
+  border-color: yellow;
+}
+
+
+
+img#rhs-mainImageID.rhs-mainImage{
+	width:100%;
+	height:100%;
+	border-radius: 50px;
+  position: absolute;
+}
+
+div#thirdlevelcontainer{
+  display:flex;
+  width:100%;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  border-radius: 15px;
+  border-style:solid;
+  border-color: coral;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  background: repeating-radial-gradient(white 5%, yellow 10%, green 5%);
+}
+
+img#connectImgID.connectAppimg{
+	width:30%;
+	height:55px;
+	border-radius: 200px;
+  position:relative;
+  margin:5px;
+  border:5px;
+  padding:15px;
+
+}
+img#networkImgID.networkAppimg{
+  width:30%;
+	height:55px;
+	border-radius: 200px;
+  position:relative;
+  margin:5px;
+  border:5px;
+  padding:15px;
+}
+img#smartHomeImgID.smartHomeAppimg{
+  width:30%;
+	height:55px;
+	border-radius: 200px;
+  position:relative;
+  margin:5px;
+  border:5px;
+  padding:15px;
+}
+
+p#AppTextID.AppTextClass{
+  width:33%;
+  margin:auto;
+  padding: inherit;
+  border-radius: 100px;
+/*  position: relative;
+  left:-10px;*/
+  font-size: 0.7em;
+  font-weight: bold;
+  color:magenta;
+  text-align:center;
+}
