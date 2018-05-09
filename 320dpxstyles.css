@@ -3,15 +3,11 @@
 /* begin styling for body */
 body{
 	border-radius: 25px;
-	margin:2px 2px 2px 2px;
-	border:3px;
+	margin:2px;
+	border:3px outset red;
 	padding: 2px 12px 10px 5px;
-	border-style:outset;
-	border-color: red;
 	background-image: url("background-image.jpg");
-  background-size: auto;
 }
-
 /* end styling for body */
 
 /* begin styling for main container contents*/
@@ -19,29 +15,21 @@ body{
 	justify-content: center;
 	width:100%;
   margin-top: 5px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: auto;
   border-radius: 15px;
-  border-style:outset;
-  border-color: coral;
-  padding-top: 5px;
-  padding-bottom: 35px;
+	border: 3px outset coral;
+	padding: 5px 0px 35px 0px;
   background: repeating-radial-gradient(white 5%, yellow 10%, green 5%);
 }
 
 img#udacitylogo{
   margin:auto;
 	border-radius: 50px;
-	/*width:100px;
-	height:100px;*/
 	max-width: 100%;
 	max-height: 100%;
 }
 
 p.myheader{
-	margin-top: 15px;
-  margin-bottom: 10px;
+	margin:15px 0px 10px 0px;
 	border-radius: 50px;
 	border: 3px;
 	font-family: Comic Sans MS;
@@ -53,7 +41,6 @@ p.myheader{
 	margin: auto;
   color:blue;
   font-family:Comic Sans MS;
-
 }
 
 /* start of code for left hand side bar */
@@ -61,18 +48,15 @@ p.myheader{
 	justify-content: center;
 	flex-wrap: nowrap;
   width:100%;
-  margin-top: 5px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: auto;
+	margin:5px -6px 0px 0px;
   border-radius: 15px;
-  border-style:solid;
-  border-color: coral;
-  padding-top: 5px;
-  padding-bottom: 300px;
+	border: 3px solid coral;
+	padding: 5px 0px 300px 0px;
 }
 
 div#leftsidebarcontainer{
+	display:flex;
+	flex-direction: column;
 	justify-content: center;
 	border-radius: 50px;
 	width:25%;
@@ -128,14 +112,14 @@ div#color3{
 }
 
 div#colortextcode{
-	font-size: .9em;
+	font-size: 0.9em;
 }
 
 /* end of code for left hand side bar */
 
 div#rightsidebarcontainer.rightsidebarcontainerclass{
-	justify-content: center;
   display:flex;
+	justify-content: center;
   position:absolute;
   right:15px;
 	width:55%;
@@ -157,15 +141,10 @@ img#rhs-mainImageID.rhs-mainImage{
 div#thirdlevelcontainer{
   display:flex;
   width:100%;
-  margin-top: 5px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: auto;
+	margin: 5px auto auto auto;
   border-radius: 15px;
-  border-style:solid;
-  border-color: coral;
-  padding-top: 5px;
-  padding-bottom: 20px;
+  border: 3px solid coral;
+  padding: 5px 0px 20px 0px;
   background: repeating-radial-gradient(white 5%, yellow 10%, green 5%);
 }
 
@@ -203,8 +182,6 @@ p#AppTextID.AppTextClass{
   margin:auto;
   padding: inherit;
   border-radius: 100px;
-/*  position: relative;
-  left:-10px;*/
   font-size: 0.7em;
   font-weight: bold;
   color:magenta;
