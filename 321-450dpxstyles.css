@@ -70,13 +70,15 @@ div#secondlevelcontainer{
   border-style:solid;
   border-color: coral;
   padding-top: 5px;
-  padding-bottom: 300px;
+  padding-bottom: 380px;
 }
 
 div#leftsidebarcontainer{
+	display: flex;
 	justify-content: center;
 	border-radius: 50px;
 	width:25%;
+	height:45%;
   border-style:solid;
   position: absolute;
   left:25px;
@@ -85,8 +87,8 @@ div#leftsidebarcontainer{
 }
 
 div#leftsidecolors{
-  margin-top: 15px;
-  margin-bottom: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 div#color1{
 	width:62px;
@@ -134,12 +136,9 @@ div#colortextcode{
 
 /* end of code for left hand side bar */
 
-img{
-	max-width: 100%;
-	max-height: 100%;
-}
 
 div#rightsidebarcontainer.rightsidebarcontainerclass{
+
   display:flex;
 	flex-wrap: wrap;
 	justify-content: center;

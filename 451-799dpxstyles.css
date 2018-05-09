@@ -79,6 +79,7 @@ div#leftsidebarcontainer{
 	justify-content: center;
 	border-radius: 50px;
 	width:25%;
+	height:25%;
   border-style:solid;
   position: absolute;
   left:25px;
@@ -143,7 +144,7 @@ div#rightsidebarcontainer.rightsidebarcontainerclass{
   position:absolute;
   right:23px;
 	width:55%;
-  height:47%;
+  height:25%;
   border-style: solid;
   border-radius: 60px;
   border-color: yellow;
