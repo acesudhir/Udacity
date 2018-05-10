@@ -4,10 +4,8 @@
 body{
 	border-radius: 25px;
 	margin:2px 2px 2px 2px;
-	border:3px;
+	border:3px outset red;
 	padding: 2px 12px 10px 5px;
-	border-style:outset;
-	border-color: red;
 	background-image: url("background-image.jpg");
   background-size: auto;
 }
@@ -18,41 +16,32 @@ body{
 #headercontainer{
 	justify-content: center;
 	width:100%;
-  margin-top: 5px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: auto;
+  margin: 5px -6px 0px 0px;
   border-radius: 15px;
-  border-style:outset;
-  border-color: coral;
-  padding-top: 5px;
-  padding-bottom: 35px;
+  border: 3px outset coral;
+  padding: 5px 0px 35px 0px;
   background: repeating-radial-gradient(white 5%, yellow 10%, green 5%);
 }
 
 img#udacitylogo{
   margin:auto;
 	border-radius: 50px;
-	/*width:100px;
-	height:100px;*/
 	max-width: 100%;
 	max-height: 100%;
 }
 
 p.myheader{
-	margin-top: 15px;
-  margin-bottom: 10px;
+	margin: 15px 0px 10px 0px;
 	border-radius: 50px;
 	border: 3px;
-	font-family: Comic Sans MS;
-	font-style: italic;
   color:blue;
+	font: italic 1em Comic Sans MS;
 }
 
 .mydescription{
 	margin: auto;
   color:blue;
-  font-family:Comic Sans MS;
+  font: italic 1em Comic Sans MS;
 
 }
 
@@ -62,83 +51,71 @@ div#secondlevelcontainer{
 	display:flex;
 	justify-content: center;
 	flex-wrap: nowrap;
-  margin-top: 5px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: auto;
+  margin: 5px -6px 0px 0px;
   border-radius: 15px;
-  border-style:solid;
-  border-color: coral;
-  padding-top: 5px;
-  padding-bottom: 380px;
+  border: 3px solid coral;
+  padding: 5px 0px 380px 0px;
 }
 
 div#leftsidebarcontainer{
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	border-radius: 50px;
 	width:25%;
 	height:45%;
-  border-style:solid;
+  border: 3px solid yellow;
   position: absolute;
   left:25px;
-  border-color: yellow;
 	background: repeating-radial-gradient(white 5%, yellow 10%, green 5%);
 }
 
 div#leftsidecolors{
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin: 5px 0px 5px 0px;
 }
 div#color1{
 	width:62px;
 	height:50px;
-	padding:0;
+	padding:0px 0px 0px 0px;
 	border: 2px solid gray;
 	border-radius: 15px;
-	margin:0;
+	margin:0px 0px 0px 0px;
 	background-color: blue;
 }
 
 div#color2{
 	width:62px;
 	height:50px;
-	padding:0;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
 	border: 2px solid gray;
 	border-radius: 15px;
-	margin:0;
 	background-color: navy;
 }
 
 div#color3{
 	width:62px;
 	height:50px;
-	padding:0;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
 	border: 2px solid gray;
 	border-radius: 15px;
-	margin:0;
 	background-color: aqua;
 }
 
 #colortextcode{
-	font-style: italic;
-	font-weight: bold;
-	font-family:serif;
+	font: italic bold 0.9em serif;
   color:magenta;
-  margin: 2px;
+  margin: 2px 2px 2px 2px;
   border-style: 2px;
-  padding: 3px;
+  padding: 3px 3px 3px 3px;
 }
 
-div#colortextcode{
-	font-size: .9em;
-}
 
 /* end of code for left hand side bar */
 
 
 div#rightsidebarcontainer.rightsidebarcontainerclass{
-
   display:flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -146,9 +123,8 @@ div#rightsidebarcontainer.rightsidebarcontainerclass{
   right:20px;
 	width:55%;
   height:45%;
-  border-style: solid;
+  border: 3px solid yellow;
   border-radius: 55px;
-  border-color: yellow;
 }
 
 img#rhs-mainImageID.rhs-mainImage{
@@ -163,15 +139,10 @@ div#thirdlevelcontainer{
 	flex-wrap:nowrap;
 	justify-content: center;
   width:100%;
-  margin-top: 5px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: auto;
+  margin: 5px -6px 0px 0px;
   border-radius: 15px;
-  border-style:solid;
-  border-color: coral;
-  padding-top: 3px;
-  padding-bottom: 2px;
+  border: 3px solid coral;
+  padding: 3px 0px 12px 0px;
   background: repeating-radial-gradient(white 5%, yellow 10%, green 5%);
 }
 
@@ -181,8 +152,8 @@ img#connectImgID.connectAppimg{
 	height:50%;
 	border-radius: 200px;
 	position:relative;
-	margin:5px;
-	border:5px;
+	margin:5px 5px 5px 5px;
+	border:5px 5px 5px 5px;
 }
 
 img#networkImgID.networkAppimg{
@@ -191,8 +162,8 @@ img#networkImgID.networkAppimg{
 	height:50%;
 	border-radius: 250px;
 	position:relative;
-	margin:5px;
-	border:5px;
+	margin:5px 5px 5px 5px;
+	border:5px 5px 5px 5px;
 }
 img#smartHomeImgID.smartHomeAppimg{
 	justify-content: center;
@@ -200,8 +171,8 @@ img#smartHomeImgID.smartHomeAppimg{
 	height:50%;
 	border-radius: 200px;
 	position:relative;
-	margin:5px;
-	border:5px;
+	margin:5px 5px 5px 5px;
+	border:5px 5px 5px 5px;
 }
 
 p#AppTextID.AppTextClass{
@@ -210,7 +181,6 @@ p#AppTextID.AppTextClass{
   margin:auto;
   padding: inherit;
   border-radius: 100px;
-  font-size: 0.8em;
-  font-weight: bold;
+	font: bold 0.8em;
   color:magenta;
 }

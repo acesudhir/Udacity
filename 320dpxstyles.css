@@ -3,7 +3,7 @@
 /* begin styling for body */
 body{
 	border-radius: 25px;
-	margin:2px;
+	margin:2px 2px 2px 2px;
 	border:3px outset red;
 	padding: 2px 12px 10px 5px;
 	background-image: url("background-image.jpg");
@@ -14,7 +14,7 @@ body{
 #headercontainer{
 	justify-content: center;
 	width:100%;
-  margin-top: 5px;
+  margin-top: 5px auto auto auto;
   border-radius: 15px;
 	border: 3px outset coral;
 	padding: 5px 0px 35px 0px;
@@ -74,41 +74,39 @@ div#leftsidecolors{
 div#color1{
 	width:62px;
 	height:50px;
-	padding:0;
+	padding:0px 0px 0px 0px;
 	border: 2px solid gray;
 	border-radius: 15px;
-	margin:0;
+	margin:0px 0px 0px 0px;
 	background-color: blue;
 }
 
 div#color2{
 	width:62px;
 	height:50px;
-	padding:0;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
 	border: 2px solid gray;
 	border-radius: 15px;
-	margin:0;
 	background-color: navy;
 }
 
 div#color3{
 	width:62px;
 	height:50px;
-	padding:0;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
 	border: 2px solid gray;
 	border-radius: 15px;
-	margin:0;
 	background-color: aqua;
 }
 
 #colortextcode{
-	font-style: italic;
-	font-weight: bold;
-	font-family:serif;
+	font: italic bold 0.6em serif;
   color:magenta;
-  margin: 2px;
+	margin: 2px 2px 2px 2px;
   border-style: 2px;
-  padding: 3px;
+  padding: 3px 3px 3px 3px;
 }
 
 div#colortextcode{
@@ -124,12 +122,9 @@ div#rightsidebarcontainer.rightsidebarcontainerclass{
   right:15px;
 	width:55%;
   height:45%;
-  border-style: solid;
+  border: 3px solid yellow;
   border-radius: 55px;
-  border-color: yellow;
 }
-
-
 
 img#rhs-mainImageID.rhs-mainImage{
 	width:100%;
@@ -141,7 +136,7 @@ img#rhs-mainImageID.rhs-mainImage{
 div#thirdlevelcontainer{
   display:flex;
   width:100%;
-	margin: 5px auto auto auto;
+	margin: 5px -6px 0px 0px;
   border-radius: 15px;
   border: 3px solid coral;
   padding: 5px 0px 20px 0px;
@@ -153,9 +148,9 @@ img#connectImgID.connectAppimg{
 	height:55px;
 	border-radius: 200px;
   position:relative;
-  margin:3px;
-  border:3px;
-  padding:3px;
+  margin:3px 3px 3px 3px;
+  border:3px 3px 3px 3px;
+  padding:3px 3px 3px 3px;
 
 }
 img#networkImgID.networkAppimg{
@@ -163,18 +158,18 @@ img#networkImgID.networkAppimg{
 	height:55px;
 	border-radius: 200px;
   position:relative;
-  margin:3px;
-  border:3px;
-  padding:3px;
+  margin:3px 3px 3px 3px;
+  border:3px 3px 3px 3px;
+  padding:3px 3px 3px 3px;
 }
 img#smartHomeImgID.smartHomeAppimg{
   width:30%;
 	height:55px;
 	border-radius: 200px;
   position:relative;
-  margin:3px;
-  border:3px;
-  padding:3px;
+  margin:3px 3px 3px 3px;
+  border:3px 3px 3px 3px;
+  padding:3px 3px 3px 3px;
 }
 
 p#AppTextID.AppTextClass{

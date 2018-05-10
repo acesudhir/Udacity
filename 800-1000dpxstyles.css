@@ -4,10 +4,8 @@
 body{
 	border-radius: 25px;
 	margin:2px 2px 2px 2px;
-	border:3px;
+	border:3px outset red;
 	padding: 2px 12px 10px 5px;
-	border-style:outset;
-	border-color: red;
 	background-image: url("background-image.jpg");
   background-size: auto;
 }
@@ -18,21 +16,15 @@ body{
 #headercontainer{
 	width:100%;
 	justify-content: center;
-  margin-top: 5px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: auto;
+  margin: 5px -6px 0px 0px;
   border-radius: 15px;
-  border-style:outset;
-  border-color: coral;
-  padding-top: 5px;
-  padding-bottom: 50px;
+  border: 3px outset coral;
+  padding: 5px 0px 50px 0px;
   background: repeating-radial-gradient(white 5%, yellow 10%, green 5%);
 }
 
 img#udacitylogo{
-  margin-left: 3px;
-	margin-top: 5px;
+	margin:auto;
 	border-radius: 50px;
 	width:150px;
 	height:50%;
@@ -41,100 +33,84 @@ img#udacitylogo{
 }
 
 p.myheader{
-	margin-top: 15px;
-  margin-bottom: 10px;
+	margin-top: 15px 0px 10px 0px;
 	border-radius: 50px;
 	border: 3px;
-	font-family: Comic Sans MS;
-	font-style: italic;
+	font: italic 2em Comic Sans MS;
   color:blue;
-	font-size: 2em;
 }
 
 .mydescription{
 	margin: auto;
   color:blue;
-  font-family:Comic Sans MS;
-	font-size: 2em;
-
+	font: italic 2em Comic Sans MS;
 }
 
 /* start of code for left hand side bar */
 #secondlevelcontainer{
+	display:flex;
   width:100%;
 	height:100%;
 	justify-content: center;
 	flex-wrap: nowrap;
-  margin-top: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: auto;
+  margin: 5px -6px 0px 0px;
   border-radius: 15px;
-  border-style:solid;
-  border-color: coral;
-  padding-top: 5px;
-  padding-bottom: 1200px;
+  border: 3px solid coral;
+  padding: 5px 0px 1200px 0px;
 }
 
 div#leftsidebarcontainer{
 	display:flex;
+	flex-direction: column;
 	justify-content: center;
 	border-radius: 50px;
 	width:35%;
 	height: 85%;
-  border-style:solid;
+  border: 3px solid yellow;
   position: absolute;
   left:25px;
-  border-color: yellow;
 	background: repeating-radial-gradient(white 5%, yellow 10%, green 5%);
 }
 
 div#leftsidecolors{
-	margin-top: 15%;
-  margin-bottom: 5%;
+	margin-top: 15px 0px 5px 0px;
 }
 div#color1{
 	width:250px;
-	height:150px;
-	padding:0;
+	height:100px;
+	padding:0px 0px 0px 0px;
 	border: 2px solid gray;
 	border-radius: 15px;
-	margin:0;
+	margin:0px 0px 0px 0px;
 	background-color: blue;
 }
 
 div#color2{
 	width:250px;
-	height:150px;
-	padding:0;
+	height:100px;
+	padding:0px 0px 0px 0px;
 	border: 2px solid gray;
 	border-radius: 15px;
-	margin:0;
+	margin:0px 0px 0px 0px;
 	background-color: navy;
 }
 
 div#color3{
 	width:250px;
-	height:150px;
-	padding:0;
+	height:100px;
+	padding:0px 0px 0px 0px;
 	border: 2px solid gray;
 	border-radius: 15px;
-	margin:0;
+	margin:0px 0px 0px 0px;
 	background-color: aqua;
 }
 
 #colortextcode{
-	font-style: italic;
-	font-weight: bold;
-	font-family:serif;
+	font: italic bold 2em serif;
   color:magenta;
   margin: 2px;
   border-style: 2px;
   padding: 3px;
-}
-
-div#colortextcode{
-	font-size: 2em;
 }
 
 /* end of code for left hand side bar */
@@ -148,9 +124,8 @@ div#rightsidebarcontainer.rightsidebarcontainerclass{
   right:23px;
 	width:55%;
   height: 85%;
-  border-style: solid;
+  border: 3px solid yellow;
   border-radius: 60px;
-  border-color: yellow;
 }
 
 img#rhs-mainImageID.rhs-mainImage{
@@ -158,7 +133,6 @@ img#rhs-mainImageID.rhs-mainImage{
 	height:100%;
 	border-radius: 55px;
   position: absolute;
-	left:auto;
 }
 /* end of code for right hand side bar */
 
@@ -169,15 +143,10 @@ div#thirdlevelcontainer{
 	justify-content: center;
   width:100%;
 	height:100%;
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: auto;
+  margin-top: 50px -6px 0px 0px;
   border-radius: 15px;
-  border-style:solid;
-  border-color: coral;
-  padding-top: 3px;
-  padding-bottom: 15px;
+  border: 3px solid coral;
+  padding: 5px 0px 15px 0px;
   background: repeating-radial-gradient(white 5%, yellow 10%, green 5%);
 }
 
@@ -187,8 +156,8 @@ img#connectImgID.connectAppimg{
 	height:50%;
 	border-radius: 200px;
   position:relative;
-  margin:5px;
-  border:5px;
+  margin:5px 5px 5px 5px;
+  border:5px 5px 5px 5px;
 }
 img#networkImgID.networkAppimg{
 	justify-content: center;
@@ -196,8 +165,8 @@ img#networkImgID.networkAppimg{
 	height:50%;
 	border-radius: 200px;
   position:relative;
-  margin:5px;
-  border:5px;
+  margin:5px 5px 5px 5px;
+  border:5px 5px 5px 5px;
 }
 img#smartHomeImgID.smartHomeAppimg{
 	justify-content: center;
@@ -205,8 +174,8 @@ img#smartHomeImgID.smartHomeAppimg{
 	height:50%;
 	border-radius: 200px;
   position:relative;
-  margin:5px;
-  border:5px;
+  margin:5px 5px 5px 5px;
+  border:5px 5px 5px 5px;
 }
 
 p#AppTextID.AppTextClass{
@@ -215,8 +184,7 @@ p#AppTextID.AppTextClass{
   margin:auto;
   padding: inherit;
   border-radius: 100px;
-  font-size: 2em;
-  font-weight: bold;
+  font: bold 2em;
   color:magenta;
 }
 /* end of code for apps on third level */
