@@ -139,6 +139,7 @@ div#colortextcode{
 
 /* end of code for left hand side bar */
 
+/* start of code for right hand side bar */
 div#rightsidebarcontainer.rightsidebarcontainerclass{
   display:flex;
 	flex-wrap: wrap;
@@ -159,7 +160,9 @@ img#rhs-mainImageID.rhs-mainImage{
   position: absolute;
 	left:auto;
 }
+/* end of code for right hand side bar */
 
+/* start of code for apps on third level */
 div#thirdlevelcontainer{
   display:flex;
 	flex-wrap:nowrap;
@@ -216,3 +219,4 @@ p#AppTextID.AppTextClass{
   font-weight: bold;
   color:magenta;
 }
+/* end of code for apps on third level */
