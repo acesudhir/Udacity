@@ -1,5 +1,19 @@
 /* add your CSS here */
 
+/*  ************ Start of CSS Goals ************
+1. create a flex based layout consisting of 3 boxes
+2. Box1: which is the header should contain udacity logo and portfolio description
+3. Box2: which is the main page should have 3 colors with hex marker codes and an image that expands or reduces in size as the screen size is increased ( in other words: responsive design)
+4. Box3: App side images, which are a GUI representation of applications that are available for use
+5. Try to input the following details that were learnt in class
+		-- responsive web design
+		-- media queries
+		-- viewport
+		-- display on mobile devices
+		-- all HTML and CSS styling as mandated in project rubric
+
+************ End of CSS Goals ************               */
+
 /* begin styling for body */
 body{
 	border-radius: 25px;
@@ -12,7 +26,7 @@ body{
 
 /* end styling for body */
 
-/* begin styling for main container contents*/
+/* begin styling for header container contents*/
 #headercontainer{
 	justify-content: center;
 	width:100%;
@@ -23,14 +37,14 @@ body{
   background: repeating-radial-gradient(white 5%, yellow 10%, green 5%);
 }
 
-img#udacitylogo{
+#udacitylogo{
   margin:auto;
 	border-radius: 50px;
 	max-width: 100%;
 	max-height: 100%;
 }
 
-p.myheader{
+.myheader{
 	margin: 15px 0px 10px 0px;
 	border-radius: 50px;
 	border: 3px;
@@ -46,7 +60,7 @@ p.myheader{
 }
 
 /* start of code for left hand side bar */
-div#secondlevelcontainer{
+#secondlevelcontainer{
   width:100%;
 	display:flex;
 	justify-content: center;
@@ -57,7 +71,7 @@ div#secondlevelcontainer{
   padding: 5px 0px 380px 0px;
 }
 
-div#leftsidebarcontainer{
+#leftsidebarcontainer{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -70,10 +84,11 @@ div#leftsidebarcontainer{
 	background: repeating-radial-gradient(white 5%, yellow 10%, green 5%);
 }
 
-div#leftsidecolors{
+#leftsidecolors{
   margin: 5px 0px 5px 0px;
 }
-div#color1{
+
+#color1{
 	width:62px;
 	height:50px;
 	padding:0px 0px 0px 0px;
@@ -83,7 +98,7 @@ div#color1{
 	background-color: blue;
 }
 
-div#color2{
+#color2{
 	width:62px;
 	height:50px;
 	padding:0px 0px 0px 0px;
@@ -93,7 +108,7 @@ div#color2{
 	background-color: navy;
 }
 
-div#color3{
+#color3{
 	width:62px;
 	height:50px;
 	padding:0px 0px 0px 0px;
@@ -115,7 +130,7 @@ div#color3{
 /* end of code for left hand side bar */
 
 
-div#rightsidebarcontainer.rightsidebarcontainerclass{
+#rightsidebarcontainer.rightsidebarcontainerclass{
   display:flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -127,14 +142,14 @@ div#rightsidebarcontainer.rightsidebarcontainerclass{
   border-radius: 55px;
 }
 
-img#rhs-mainImageID.rhs-mainImage{
+#rhs-mainImageID.rhs-mainImage{
 	width:100%;
 	height:100%;
 	border-radius: 50px;
   position: absolute;
 }
 
-div#thirdlevelcontainer{
+#thirdlevelcontainer{
   display:flex;
 	flex-wrap:nowrap;
 	justify-content: center;
@@ -146,7 +161,7 @@ div#thirdlevelcontainer{
   background: repeating-radial-gradient(white 5%, yellow 10%, green 5%);
 }
 
-img#connectImgID.connectAppimg{
+#connectImgID.connectAppimg{
 	justify-content: center;
 	width:50%;
 	height:50%;
@@ -156,7 +171,7 @@ img#connectImgID.connectAppimg{
 	border:5px 5px 5px 5px;
 }
 
-img#networkImgID.networkAppimg{
+#networkImgID.networkAppimg{
 	justify-content: center;
 	width:50%;
 	height:50%;
@@ -165,7 +180,8 @@ img#networkImgID.networkAppimg{
 	margin:5px 5px 5px 5px;
 	border:5px 5px 5px 5px;
 }
-img#smartHomeImgID.smartHomeAppimg{
+
+#smartHomeImgID.smartHomeAppimg{
 	justify-content: center;
 	width:50%;
 	height:50%;
@@ -175,7 +191,7 @@ img#smartHomeImgID.smartHomeAppimg{
 	border:5px 5px 5px 5px;
 }
 
-p#AppTextID.AppTextClass{
+#AppTextID.AppTextClass{
 	width:33%;
 	justify-content: center;
   margin:auto;
