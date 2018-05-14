@@ -1,0 +1,217 @@
+/* add your CSS here */
+
+/*  ************ Start of CSS Goals ************
+1. create a flex based layout consisting of 3 boxes
+2. Box1: which is the header should contain udacity logo and portfolio description
+3. Box2: which is the main page should have 3 colors with hex marker codes and an image that expands or reduces in size as the screen size is increased ( in other words: responsive design)
+4. Box3: App side images, which are a GUI representation of applications that are available for use
+5. Try to input the following details that were learnt in class
+		-- responsive web design
+		-- media queries
+		-- viewport
+		-- display on mobile devices
+		-- all HTML and CSS styling as mandated in project rubric
+
+************ End of CSS Goals ************               */
+
+/* begin styling for body */
+body{
+	border-radius: 25px;
+	margin:2px 2px 2px 2px;
+	border:3px outset red;
+	padding: 2px 12px 10px 5px;
+	background-image: url(../imgs/background-image.jpg);
+}
+
+/* end styling for body */
+
+/* begin styling for header container contents*/
+.headercontainer{
+	justify-content: center;
+	width:100%;
+  margin: 5px -6px 0 0;
+  border-radius: 15px;
+	border-style:outset;
+	border-color: coral;
+	padding-top: 5px;
+	padding-bottom: 35px;
+  background: repeating-radial-gradient(white 5%, yellow 10%, green 5%);
+}
+
+.udacitylogo{
+  margin:auto;
+	border-radius: 50px;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+h1 {
+	text-align: center;
+	color: blue;
+	font: bold 1.25em Comic Sans MS;
+}
+
+h2 {
+	text-align: center;
+	color: blue;
+	font: bold 1em Comic Sans MS;
+}
+
+/* start of code for left hand side bar */
+.secondlevelcontainerclass{
+  width:100%;
+	display:flex;
+	justify-content: center;
+	flex-wrap: nowrap;
+  margin: 5px -6px 0 0;
+  border-radius: 15px;
+  /*border: 3px solid coral;*/
+	border-style: solid;
+	border-color: coral;
+	border-width: 3px;
+  /*padding: 5px 0 380px 0;*/
+	padding-top: 5px;
+	padding-bottom: 380px;
+}
+
+.leftsidebarcontainerclass{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-radius: 50px;
+	width:25%;
+	height:45%;
+  /*border: 3px solid yellow;*/
+	border-style: solid;
+	border-color: yellow;
+	border-width: 3px;
+  position: absolute;
+  left:25px;
+	background: repeating-radial-gradient(white 5%, yellow 10%, green 5%);
+}
+
+.leftsidecolors{
+  margin: 5px 0 5px 0;
+}
+
+.color1{
+	width:62px;
+	height:50px;
+	padding:0;
+	border-width: 2px;
+	border-style: solid;
+	border-color: gray;
+	border-radius: 15px;
+	margin:0;
+	background-color: blue;
+}
+
+.color2{
+	width:62px;
+	height:50px;
+	padding:0;
+	margin:0;
+	border-width: 2px;
+	border-style: solid;
+	border-color: gray;
+	border-radius: 15px;
+	background-color: navy;
+}
+
+.color3{
+	width:62px;
+	height:50px;
+	padding:0;
+	margin:0;
+	border-width: 2px;
+	border-style: solid;
+	border-color: gray;
+	border-radius: 15px;
+	background-color: aqua;
+}
+
+.colortextcode{
+	font: italic bold 0.9em serif;
+  color:magenta;
+  margin: 2px 2px 2px 2px;
+  padding: 3px 3px 3px 3px;
+}
+
+
+/* end of code for left hand side bar */
+
+
+.rightsidebarcontainerclass{
+  display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  position:absolute;
+  right:20px;
+	width:55%;
+  height:45%;
+	border-width: 3px;
+	border-style: solid;
+	border-color: yellow;
+  border-radius: 55px;
+}
+
+.rhs-mainImage{
+	width:100%;
+	height:100%;
+	border-radius: 50px;
+  position: absolute;
+}
+
+.thirdlevelcontainerclass{
+  display:flex;
+	flex-wrap:nowrap;
+	justify-content: center;
+  width:100%;
+  /*margin: 5px -6px 0 0;*/
+	margin: 5px -6px 0 0;
+  border-radius: 15px;
+	border-width: 3px;
+	border-style: solid;
+	border-color: coral;
+	padding: 3px 0 12px 0;
+  background: repeating-radial-gradient(white 5%, yellow 10%, green 5%);
+}
+
+.connectAppimg{
+	justify-content: center;
+	width:50%;
+	height:50%;
+	border-radius: 200px;
+	position:relative;
+	margin:5px 5px 5px 5px;
+}
+
+.networkAppimg{
+	justify-content: center;
+	width:50%;
+	height:50%;
+	border-radius: 250px;
+	position:relative;
+	margin:5px 5px 5px 5px;
+}
+
+.smartHomeAppimg{
+	justify-content: center;
+	width:50%;
+	height:50%;
+	border-radius: 200px;
+	position:relative;
+	margin:5px 5px 5px 5px;
+}
+
+.AppTextClass{
+	width:33%;
+	justify-content: center;
+	text-align: center;
+  margin:auto;
+  border-radius: 100px;
+	/*font: bold 0.8em;*/
+	font-size: 0.8em;
+	font-weight: bold;
+  color:magenta;
+}
